@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+#logo{
+    width: 50px;
+}
+
+#movie_nights{
+    display: inline;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+#favMovie{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted black;
+    border-color: aqua;
+    width: 100%;
+    padding-left: 5%;
+}
+
+#filter{
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    padding-top: 50px;
+    padding-left: 5%;
+}
+
+#nav {
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+
+}
+
+.nav_link {
+    margin-right: 10px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(230, 253, 245);
+    text-decoration: none;
+}
+
+.item1 {grid-area: header;}
+.item2 {grid-area: left;}
+.item3 {grid-area: middle;}
+.item4 {grid-area: right;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'left middle right';
+    gap: 2%;
+    padding: 2%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.top {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+
+.animation_1 {
+    position: absolute;
+    top: 18%;
+    left: 55%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(246, 255, 252);
+    font-size: 70%;
+}
+
+.adventure_1 {
+    position: absolute;
+    top: 18%;
+    left: 63%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(246, 255, 252);
+    font-size: 70%;
+}
+.comedy_1 {
+    position: absolute;
+    top: 18%;
+    left: 73%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(246, 255, 252);
+    font-size: 70%;
+}
+
+.large_img {
+    width: 100%;
+    padding-right: 50%;
+    background-color: rgb(164, 239, 214);
+}
+
+.date_large {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    font-weight: normal;
+    font-size: 90%;
+}
+.title_large{
+    font-size: 30px;
+    position: absolute;
+    top: 38%;
+    left: 55%
+}
+
+.overview_large{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    right: 50px;
+    font-size: 100%;
+    font-weight: normal;
+}
+.vote_large{
+    position: absolute;
+    display: inline;
+    top: 80%;
+    left: 55%;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: medium;
+    text-decoration: none;
+}
+#love_in_line{
+    display: inline;
+    width: 20px;
+}
+
+
+#small_img{
+    width: 100%;
+}
+
+.txt_on_img {
+    position: relative;
+}
+#genres {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+#genres2 {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(246, 255, 252);
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+#genres3 {
+    position: absolute;
+    top: 10px;
+    left: 151px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(246, 255, 252);
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+#date {
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#title_small {
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: bold;
+}
+
+#overview{
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#vote {
+    width: 30px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#footer {
+    padding: 50px;
+    background-color: black;
+}
+#footLogo {
+    display: inline;
+    width: 50px;
+}
+
+#evolving {
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: aliceblue;
+    padding-right: 10%;
+}
+#web {
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: rgb(162, 163, 164);
+}
+#back {
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: aliceblue; 
+    text-decoration: none;
+}
+#back_emoji {
+    width: 15px;
+}
+#copyright {
+    display: inline;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: aliceblue; 
+    padding-left: 40%;
+}
