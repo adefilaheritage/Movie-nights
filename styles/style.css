@@ -137,7 +137,7 @@
     font-size: 90%;
 }
 .title_large{
-    font-size: 30px;
+    font-size: 200%;
     position: absolute;
     top: 38%;
     left: 55%
@@ -148,7 +148,7 @@
     top: 50%;
     left: 55%;
     right: 50px;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: normal;
 }
 .vote_large{
@@ -176,7 +176,7 @@
 .txt_on_img {
     position: relative;
 }
-#genres {
+#genres, #sci-fi2, #exorcism{
     position: absolute;
     top: 10px;
     left: 10px;
@@ -191,7 +191,7 @@
     font-family: 'Segoe UI';
     font-style: normal;
 }
-#genres2 {
+#genres2, #religious {
     position: absolute;
     top: 10px;
     left: 80px;
@@ -206,7 +206,7 @@
     font-family: 'Segoe UI';
     font-style: normal;
 }
-#genres3 {
+#genres3, #dark {
     position: absolute;
     top: 10px;
     left: 151px;
@@ -222,22 +222,22 @@
     font-style: normal;
 }
 
-#date {
+#date, #date2, #date3 {
     font-size: 10px;
     font-family: 'Segoe UI';
     font-style: normal;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#title_small {
-    font-size: 15px;
+#title_small, #title_small2, #title_small3  {
+    font-size: 150%;
     font-family: 'Segoe UI';
     font-style: normal;
     font-weight: bold;
 }
 
-#overview{
-    font-size: 12px;
+#overview, #overview2, #overview3{
+    font-size: 100%;
     font-family: 'Segoe UI';
     font-style: normal;
     padding-right: 20px;
