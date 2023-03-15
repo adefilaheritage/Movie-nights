@@ -243,6 +243,15 @@
     padding-right: 20px;
     padding-bottom: 20px;
 }
+
+.overview{
+    font-size: 100%;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
 #vote {
     width: 30px;
     padding: 5px;
